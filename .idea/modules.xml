@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1673153786/com.gavin.spring.MySpringBoot.iml" filepath="$PROJECT_DIR$/.idea/modules/1673153786/com.gavin.spring.MySpringBoot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1673153786/com.gavin.spring.MySpringBoot.main.iml" filepath="$PROJECT_DIR$/.idea/modules/1673153786/com.gavin.spring.MySpringBoot.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1673153786/com.gavin.spring.MySpringBoot.test.iml" filepath="$PROJECT_DIR$/.idea/modules/1673153786/com.gavin.spring.MySpringBoot.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1673153786/ideaProjects.MySpringBoot.iml" filepath="$PROJECT_DIR$/.idea/modules/1673153786/ideaProjects.MySpringBoot.iml" />
+    </modules>
+  </component>
+</project>

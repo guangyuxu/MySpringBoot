@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/gavin_db
+    username: gavin
+    password: xq19801229
+    schema:
+    pool-size: 4
+    maximum-pool-size: 30
+  jpa:
+    hibernate:
+      ddl-auto: update
+      naming:
+        physical-strategy:  org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+      show-sql: true

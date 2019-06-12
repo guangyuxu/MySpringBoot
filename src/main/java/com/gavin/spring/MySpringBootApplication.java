@@ -1,4 +1,4 @@
-package com.gavin.spring.MySpringBoot;
+package com.gavin.spring;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
