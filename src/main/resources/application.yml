@@ -1,6 +1,7 @@
 spring:
   datasource:
-    driver-class-name: com.mysql.jdbc.Driver
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    jdbc-url: jdbc:mysql://localhost:3306/gavin_db
     url: jdbc:mysql://localhost:3306/gavin_db
     username: gavin
     password: xq19801229
@@ -8,8 +9,10 @@ spring:
     pool-size: 4
     maximum-pool-size: 30
   jpa:
+    database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
     hibernate:
-      ddl-auto: update
+      dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+      ddl-auto: none
       naming:
         physical-strategy:  org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
     show-sql: true

@@ -13,6 +13,7 @@ spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
 
 spring.jpa.hibernate.ddl-auto=update
 spring.jpa.database-platform=org.hibernate.dialect.MySQL5InnoDBDialect
+spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQL5InnoDBDialect
 spring.jpa.show-sql=true
 
 
@@ -28,4 +29,6 @@ update：最常用的属性，第一次加载 hibernate 时根据 model 类会�
 validate：每次加载 hibernate 时，验证创建数据库表结构，只会和数据库中的表进行比较，不会创建新表，但是会插入新值。[启动验证表结构，验证不成功，项目启动失败]
 使用 update 值对于开发阶段来说非常好，但是对于生产阶段，应该保留这个属性值为 validate，并使用数据库迁移工具来管理数据库结构的修改，如 Flyway。
 
+
+https://docs.spring.io/spring-boot/docs/current/reference/html/howto-data-access.html
  */
